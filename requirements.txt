@@ -17,4 +17,7 @@ tree_sitter_languages==1.10.2
 # Environment config
 python-dotenv
 
+radon>=6.0.1
+langchain-openai>=0.3.27
+
 pytest>=8.4.1
