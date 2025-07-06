@@ -1,0 +1,20 @@
+# LLM & Indexing
+llama-index==0.12.46        # supports CodeSplitter and local LLM integration
+langchain>=0.3.26           # used if you want chaining or Ollama
+langchain-community>=0.3.27
+openai>=1.93.0              # for GPT-4
+ollama>=0.5.1               # local models (optional)
+
+langchain-ollama>=0.3.3
+
+# Token handling
+tiktoken>=0.9.0
+
+# Tree-sitter for language-aware chunking
+tree_sitter==0.24.0
+tree_sitter_languages==1.10.2
+
+# Environment config
+python-dotenv
+
+pytest>=8.4.1

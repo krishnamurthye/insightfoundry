@@ -1,0 +1,1864 @@
+{
+  "project": "SakilaProject",
+  "files": [
+    {
+      "file": "./repo/SakilaProject/src/test/java/com/sparta/engineering72/sakilaproject/MockTests.java",
+      "description": {
+        "file_summary": "This file contains unit tests for the Sakila project's controllers and services. This file contains a set of unit tests for the Sakila project, which is a sample database used to demonstrate the use of MySQL and Java. A test class for the Rental and Category classes in the Sakila project",
+        "file_complexity_estimate": 9.0,
+        "methods": [
+          {
+            "method_name": "testActorById",
+            "signature": "public void testActorById()",
+            "description": "This method tests the findActorById method of the ActorController class."
+          },
+          {
+            "method_name": "testActorByFirstName",
+            "signature": "public void testActorByFirstName()",
+            "description": "This method tests the findActorByFirstName method of the ActorController class."
+          },
+          {
+            "method_name": "testActorByLastName",
+            "signature": "public void testActorByLastName()",
+            "description": "This method tests the findActorByLastName method of the ActorController class."
+          },
+          {
+            "method_name": "testActorByMore",
+            "signature": "public void testActorByMore()",
+            "description": "This method tests the findActorByMore method of the ActorController class."
+          },
+          {
+            "method_name": "testActorByFullName",
+            "signature": "public void testActorByFullName()",
+            "description": "This method tests the findActorByFullName method of the ActorController class."
+          },
+          {
+            "method_name": "testFilmByID",
+            "signature": "public void testFilmByID()",
+            "description": "This method tests the findFilmById method of the FilmController class."
+          },
+          {
+            "method_name": "testFilmByDescritption",
+            "signature": "public void testFilmByDescritption()",
+            "description": "This method tests the findFilmByDescription method of the FilmController class."
+          },
+          {
+            "method_name": "testFilmByRating",
+            "signature": "public void testFilmByRating()",
+            "description": "This method tests the findFilmByRating method of the FilmController class."
+          },
+          {
+            "method_name": "testFilmByLength",
+            "signature": "public void testFilmByLength()",
+            "description": "This method tests the findFilmByLength method of the FilmController class."
+          },
+          {
+            "method_name": "testFilmByName",
+            "signature": "public void testFilmByName()",
+            "description": "This method tests the findFilmByName method of the FilmController class."
+          },
+          {
+            "method_name": "testFilms",
+            "signature": "public void testFilms()",
+            "description": "This method tests the getFilms method of the FilmController class."
+          },
+          {
+            "method_name": "testCategoryById",
+            "signature": "public void testCategoryById()",
+            "description": "This method tests the getCategoryByCategoryId method of the CategoryController class."
+          },
+          {
+            "method_name": "testCategoryByName",
+            "signature": "public void testCategoryByName()",
+            "description": "This method tests the getCategoryByName method of the CategoryController class."
+          },
+          {
+            "method_name": "testCustomerById",
+            "signature": "public void testCustomerById()",
+            "description": "This method tests the getCustomerByCustomerId method of the CustomerController class."
+          },
+          {
+            "method_name": "testCustomer",
+            "signature": "public void testCustomer()",
+            "description": "This method tests the getCustomer method of the CustomerController class."
+          },
+          {
+            "method_name": "testStaff",
+            "signature": "public void testStaff()",
+            "description": "This method tests the getStaff method of the StaffController class."
+          },
+          {
+            "method_name": "testFilmController",
+            "signature": "public void testFilmController()",
+            "description": "This method tests the getFilmDetails method of the FilmController class."
+          },
+          {
+            "method_name": "testFilmController2",
+            "signature": "public void testFilmController2()",
+            "description": "This method tests the getFilms method of the FilmController class."
+          },
+          {
+            "method_name": "testCategory",
+            "signature": "public void testCategory()",
+            "description": "This method tests the getCategoryDetails method of the CategoryController class."
+          },
+          {
+            "method_name": "testCategory2",
+            "signature": "public void testCategory2()",
+            "description": "This method tests the getCategories method of the CategoryController class."
+          },
+          {
+            "method_name": "testActorController1",
+            "signature": "public void testActorController1()",
+            "description": "This method tests the getActors method of the ActorController class."
+          },
+          {
+            "method_name": "testCustomerController",
+            "signature": "public void testCustomerController()",
+            "description": "This method tests the getCustomers method of the CustomerController class."
+          },
+          {
+            "method_name": "testCustomerController2",
+            "signature": "public void testCustomerController2()",
+            "description": "This method tests the showUsersRentalHistory method of the CustomerController class."
+          },
+          {
+            "method_name": "testInventory",
+            "signature": "public void testInventory()",
+            "description": "This method tests the getInventoriesByInventoryId method of the InventoryRepository class."
+          },
+          {
+            "method_name": "testRental",
+            "signature": "public void testRental()",
+            "description": "This method tests the getRentalById method of the RentalController class."
+          },
+          {
+            "method_name": "testRentalByTimeStamp",
+            "signature": "public void testRentalByTimeStamp()",
+            "description": "Tests the getRentalByTimeStamp method of the Rental class."
+          },
+          {
+            "method_name": "testCategoryByTimeStamp",
+            "signature": "public void testCategoryByTimeStamp()",
+            "description": "Tests the getCategoryByTimeStamp method of the Category class."
+          }
+        ],
+        "mocks": [
+          "Mockito",
+          "CategoryRepository",
+          "CustomerRepository",
+          "StaffRepository",
+          "FilmService",
+          "InventoryService",
+          "RentalService"
+        ],
+        "assertions": [
+          "assertEquals"
+        ],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/test/java/com/sparta/engineering72/sakilaproject/SakilaProjectApplicationTests.java",
+      "description": {
+        "file_summary": "This file contains JUnit test cases for the MainController class in the com. sparta. engineering72. sakilaproject package",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "MainController1",
+            "signature": "public void MainController1()",
+            "description": "This method tests the home() method of the MainController class."
+          },
+          {
+            "method_name": "MainController2",
+            "signature": "public void MainController2()",
+            "description": "This method tests the account() method of the MainController class."
+          },
+          {
+            "method_name": "MainController3",
+            "signature": "public void MainController3()",
+            "description": "This method tests the login() method of the MainController class."
+          }
+        ],
+        "mocks": [],
+        "assertions": [
+          "org.junit.jupiter.api.Assertions.assertEquals"
+        ],
+        "noteworthy": [
+          "JUnit test cases for the MainController class",
+          "Use of assertEquals() to verify the return values of the home(), account(), and login() methods."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/SakilaProjectApplication.java",
+      "description": {
+        "file_summary": "The file is a Java source code file for the SakilaProjectApplication class, which is annotated with @SpringBootApplication and contains a main method that starts the Spring Boot application",
+        "file_complexity_estimate": 1.0,
+        "methods": [
+          {
+            "method_name": "main",
+            "signature": "public static void main(String[] args)",
+            "description": "The main method of the SakilaProjectApplication class, which starts the Spring Boot application."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/services/CategoryService.java",
+      "description": {
+        "file_summary": "This file defines a service class for managing categories in the Sakila project",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "getAllCategories",
+            "signature": "public List<Category> getAllCategories()",
+            "description": "Returns a list of all categories in the database."
+          },
+          {
+            "method_name": "getByCategoryId",
+            "signature": "public Category getByCategoryId(Integer id)",
+            "description": "Returns a category with the given ID."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file uses Spring's @Service annotation to indicate that it is a service class.",
+          "The constructor takes a CategoryRepository as an argument, which is used to interact with the database."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/services/RentalService.java",
+      "description": {
+        "file_summary": "This file contains a Java class named RentalService that provides methods for interacting with the Rental entity in the Sakila database",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getRentalsByCustomer",
+            "signature": "public List<Rental> getRentalsByCustomer(Integer id)",
+            "description": "This method retrieves a list of rentals for the specified customer ID from the Rental entity in the Sakila database."
+          },
+          {
+            "method_name": "addRental",
+            "signature": "public void addRental(int inventoryId, int customerId, Timestamp returnDate)",
+            "description": "This method adds a new rental to the Rental entity in the Sakila database with the specified inventory ID, customer ID, and return date."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file uses the Spring Framework's @Service annotation to indicate that this class is a service component.",
+          "The file imports the RentalRepository interface from the com.sparta.engineering72.sakilaproject.respositories package, which provides access to the Rental entity in the Sakila database."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/services/InventoryService.java",
+      "description": {
+        "file_summary": "This file contains a Java class named InventoryService that provides methods for interacting with the Sakila database's inventory table",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getAllInventory",
+            "signature": "public List<Inventory> getAllInventory()",
+            "description": "Returns a list of all inventory items in the Sakila database."
+          },
+          {
+            "method_name": "getInventoriesById",
+            "signature": "public Inventory getInventoriesById(Integer id)",
+            "description": "Returns an inventory item with the specified ID from the Sakila database."
+          },
+          {
+            "method_name": "deleteInventoryItemById",
+            "signature": "@Transactional public void deleteInventoryItemById(Integer id)",
+            "description": "Deletes an inventory item with the specified ID from the Sakila database."
+          },
+          {
+            "method_name": "getInventoryCount",
+            "signature": "public Integer getInventoryCount()",
+            "description": "Returns the number of inventory items in the Sakila database."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The InventoryService class is annotated with @Service, indicating that it provides a service for interacting with the Sakila database's inventory table.",
+          "The class has a constructor that takes an instance of InventoryRepository as a parameter, which is used to perform CRUD operations on the inventory table."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/services/StaffService.java",
+      "description": {
+        "file_summary": "The StaffService class provides methods for retrieving and manipulating data related to the Staff entity",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getAllStaff",
+            "signature": "public List<Staff> getAllStaff()",
+            "description": "Returns a list of all Staff entities."
+          },
+          {
+            "method_name": "getStaffByUsername",
+            "signature": "public Staff getStaffByUsername(String username)",
+            "description": "Returns the Staff entity with the specified username."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file uses the Spring @Service annotation to indicate that it provides a service for the application.",
+          "The constructor takes a StaffRepository instance as an argument, which is used to interact with the database.",
+          "The getAllStaff() method returns a list of all Staff entities in the repository.",
+          "The getStaffByUsername() method returns the Staff entity with the specified username, or null if no such entity exists."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/services/ActorService.java",
+      "description": {
+        "file_summary": "The ActorService class provides methods for retrieving actors from the database and performing various operations on them",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getAllActors",
+            "signature": "public List<Actor> getAllActors()",
+            "description": "Returns a list of all actors in the database."
+          },
+          {
+            "method_name": "getActorByID",
+            "signature": "public Actor getActorByID(int id)",
+            "description": "Returns an actor with the specified ID, or null if no such actor exists."
+          },
+          {
+            "method_name": "getActorsByFullName",
+            "signature": "public List<Actor> getActorsByFullName(String firstName, String lastName)",
+            "description": "Returns a list of actors with the specified full name (first and last name)."
+          },
+          {
+            "method_name": "getActorsByFirstName",
+            "signature": "public List<Actor> getActorsByFirstName(String firstName)",
+            "description": "Returns a list of actors with the specified first name."
+          },
+          {
+            "method_name": "getActorsByLastName",
+            "signature": "public List<Actor> getActorsByLastName(String lastName)",
+            "description": "Returns a list of actors with the specified last name."
+          },
+          {
+            "method_name": "getActorFullNameFromID",
+            "signature": "public String getActorFullNameFromID(Integer id)",
+            "description": "Returns the full name (first and last name) of an actor with the specified ID, or null if no such actor exists."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file uses Spring's @Service annotation to indicate that it is a service class.",
+          "The file imports the ActorRepository interface from the com.sparta.engineering72.sakilaproject.respositories package, which provides methods for interacting with the actors table in the database."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/services/FilmService.java",
+      "description": {
+        "file_summary": "",
+        "file_complexity_estimate": "",
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": []
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/services/CustomerService.java",
+      "description": {
+        "file_summary": "This file contains a Java class named CustomerService that provides methods for interacting with the Customer entity in the Sakila database",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getAllCustomers",
+            "signature": "public List<Customer> getAllCustomers()",
+            "description": "Returns a list of all customers in the database."
+          },
+          {
+            "method_name": "getCustomersByFirstName",
+            "signature": "public List<Customer> getCustomersByFirstName(String firstName)",
+            "description": "Returns a list of customers with the given first name."
+          },
+          {
+            "method_name": "getCustomersByLastName",
+            "signature": "public List<Customer> getCustomersByLastName(String lastName)",
+            "description": "Returns a list of customers with the given last name."
+          },
+          {
+            "method_name": "getCustomersByFullName",
+            "signature": "public List<Customer> getCustomersByFullName(String firstName, String lastName)",
+            "description": "Returns a list of customers with the given full name (first and last names)."
+          },
+          {
+            "method_name": "getCustomerByID",
+            "signature": "public Customer getCustomerByID(int id)",
+            "description": "Returns the customer with the given ID."
+          },
+          {
+            "method_name": "getCustomerByEmail",
+            "signature": "public Customer getCustomerByEmail(String email)",
+            "description": "Returns the customer with the given email address."
+          },
+          {
+            "method_name": "save",
+            "signature": "public void save(Customer customer)",
+            "description": "Saves a new customer to the database or updates an existing one."
+          },
+          {
+            "method_name": "getCustomerCount",
+            "signature": "public Integer getCustomerCount()",
+            "description": "Returns the number of customers in the database."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file uses Spring's @Service annotation to indicate that it is a service class.",
+          "The class has a constructor that takes a CustomerRepository as an argument, which allows it to interact with the database."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/CategoryController.java",
+      "description": {
+        "file_summary": "Controller class for handling requests related to categories",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "getCategories",
+            "signature": "public String getCategories(ModelMap modelMap)",
+            "description": "Returns a list of all categories.",
+            "complexity": null
+          },
+          {
+            "method_name": "getCategoryDetails",
+            "signature": "public String getCategoryDetails(ModelMap modelMap, @RequestParam(value = \"id\") Integer id)",
+            "description": "Returns the details of a specific category.",
+            "complexity": null
+          },
+          {
+            "method_name": "getCategoryById",
+            "signature": "public Category getCategoryById(Integer id)",
+            "description": "Returns the category with the specified ID.",
+            "complexity": null
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Spring's @Autowired annotation to inject dependencies into the constructor."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/MainController.java",
+      "description": {
+        "file_summary": "MainController class in the com. sparta. engineering72. sakilaproject. controller package of the SakilaProject project",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "home",
+            "signature": "public String home()",
+            "description": "Returns a string representing the home page view."
+          },
+          {
+            "method_name": "login",
+            "signature": "public String login()",
+            "description": "Returns a string representing the login page view."
+          },
+          {
+            "method_name": "account",
+            "signature": "public String account()",
+            "description": "Returns a string representing the account page view."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": []
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/CustomerController.java",
+      "description": {
+        "file_summary": "This file contains the CustomerController class, which is responsible for handling requests related to customers and their rental history",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "currentUser",
+            "signature": "public String currentUser(ModelMap modelMap, HttpServletRequest request)",
+            "description": "This method is called when the user navigates to the customer page. It retrieves the current user's information and their rental history from the database."
+          },
+          {
+            "method_name": "getCustomers",
+            "signature": "public String getCustomers(ModelMap modelMap, @RequestParam(value = \"firstName\", defaultValue = \"ALL CUSTOMERS\") String firstNameFilter, @RequestParam(value = \"lastName\", defaultValue = \"ALL CUSTOMERS\") String lastNameFilter)",
+            "description": "This method is called when the user navigates to the customers page. It retrieves a list of all customers from the database and filters them based on their first name and last name."
+          },
+          {
+            "method_name": "showUsersRentalHistory",
+            "signature": "public String showUsersRentalHistory(ModelMap modelMap, @PathVariable(name = \"id\") int id)",
+            "description": "This method is called when the user navigates to a specific customer's rental history page. It retrieves the customer's information and their rental history from the database."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file uses Spring MVC annotations to handle HTTP requests and responses.",
+          "The file uses the CustomerService, RentalService, InventoryService, and FilmService classes to interact with the database."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/ActorController.java",
+      "description": {
+        "file_summary": "The ActorController class is a Spring MVC controller that handles requests related to actors in the Sakila project",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getActors",
+            "signature": "public String getActors(ModelMap modelMap, @RequestParam(value = \"firstName\", defaultValue = \"ALL ACTORS\") String firstNameFilter, @RequestParam(value = \"lastName\", defaultValue = \"ALL ACTORS\") String lastNameFilter)",
+            "description": "This method retrieves a list of actors from the actorService and adds them to the modelMap. It also retrieves all actors and adds them to the modelMap under the key \"allActors\"."
+          },
+          {
+            "method_name": "getActorFilmDetails",
+            "signature": "public String getActorFilmDetails(ModelMap modelMap, @RequestParam(value = \"id\") Integer id)",
+            "description": "This method retrieves the actor with the specified ID from the actorService and adds their name and film list to the modelMap."
+          },
+          {
+            "method_name": "findActorById",
+            "signature": "public Actor findActorById(Integer id)",
+            "description": "This method returns the actor with the specified ID from the actorService."
+          },
+          {
+            "method_name": "getActorFullNameFromID",
+            "signature": "public String getActorFullNameFromID(Integer id)",
+            "description": "This method retrieves the actor with the specified ID from the actorService and returns their full name."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file uses Spring MVC's @Controller annotation to indicate that it is a controller class.",
+          "The file imports the necessary packages for Spring MVC, including org.springframework.beans.factory.annotation.Autowired and org.springframework.stereotype.Controller.",
+          "The file defines two methods: getActors and getActorFilmDetails. The getActors method retrieves a list of actors from the actorService and adds them to the modelMap, while the getActorFilmDetails method retrieves the actor with the specified ID from the actorService and adds their name and film list to the modelMap.",
+          "The file also defines two utility methods: findActorById and getActorFullNameFromID. The findActorById method returns the actor with the specified ID from the actorService, while the getActorFullNameFromID method retrieves the actor with the specified ID from the actorService and returns their full name."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/FilmController.java",
+      "description": {
+        "file_summary": "This file contains a Java class named FilmController that defines a RESTful API for managing films in a rental store",
+        "file_complexity_estimate": 8.0,
+        "methods": [
+          {
+            "method_name": "getFilms",
+            "signature": "public String getFilms(ModelMap modelMap, @RequestParam(value = \"title\", defaultValue = \"ALL FILMS\") String filter)",
+            "description": "This method returns a list of films based on the given title filter. If no filter is provided, it returns all films."
+          },
+          {
+            "method_name": "getFilmDetails",
+            "signature": "public String getFilmDetails(ModelMap modelMap, @RequestParam(value = \"id\") Integer id)",
+            "description": "This method returns the details of a film based on its ID."
+          },
+          {
+            "method_name": "rentFilm",
+            "signature": "public String rentFilm(ModelMap modelMap, Principal principal, @PathVariable(\"filmid\") int filmid)",
+            "description": "This method rents a film based on its ID and the customer's email."
+          },
+          {
+            "method_name": "getFilmDetails",
+            "signature": "public String getFilmDetails(ModelMap modelMap, @RequestParam(value = \"title\", defaultValue = \"ALL FILMS\") String filter)",
+            "description": "This method returns a list of films based on the given title filter. If no filter is provided, it returns all films."
+          },
+          {
+            "method_name": "showEditProductPage",
+            "signature": "public ModelAndView showEditProductPage(@PathVariable(name = \"id\") int id)",
+            "description": "This method shows the edit film page based on its ID."
+          },
+          {
+            "method_name": "deleteProduct",
+            "signature": "public String deleteProduct(@PathVariable(name = \"id\") int id)",
+            "description": "This method deletes a film based on its ID."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/StaffController.java",
+      "description": {
+        "file_summary": "",
+        "file_complexity_estimate": "",
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": []
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/respositories/StaffRepository.java",
+      "description": {
+        "file_summary": "Implements the StaffRepository interface for interacting with the Staff entity in the Sakila database",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getStaffByUsername",
+            "signature": "public Staff getStaffByUsername(String username)",
+            "description": "Returns a Staff object with the given username."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Spring Data JPA's @Query annotation to define a native SQL query for retrieving a Staff object by its username."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/respositories/CategoryRepository.java",
+      "description": {
+        "file_summary": "This file defines a repository for the Category entity in the Sakila project",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getCategoryByCategoryId",
+            "signature": "public Category getCategoryByCategoryId(Integer id)",
+            "description": "Returns a Category object based on the given category ID."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "This file uses Spring Data JPA to interact with the database and defines a repository for the Category entity."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/respositories/RentalRepository.java",
+      "description": {
+        "file_summary": "This file defines a JPA repository for the Rental entity, providing methods for retrieving and manipulating rental data",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getRentalByRentalId",
+            "signature": "Rental getRentalByRentalId(Integer id)",
+            "description": "Returns a Rental object with the given rental ID."
+          },
+          {
+            "method_name": "getRentalByCustomerId",
+            "signature": "List<Rental> getRentalByCustomerId(Integer customerId)",
+            "description": "Returns a list of Rental objects for the given customer ID."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file uses Spring Data JPA's @Query annotation to define custom queries for retrieving rental data based on customer ID.",
+          "The file does not contain any boilerplate code, as it only defines the necessary methods for interacting with the Rental entity."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/respositories/FilmRepository.java",
+      "description": {
+        "file_summary": "Java interface for a Spring Data JPA repository that provides methods for accessing and manipulating film data in the Sakila database",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "getAvailableFilmCount",
+            "signature": "Integer getAvailableFilmCount(Integer id)",
+            "description": "Returns the number of films that are available in the inventory for a given film ID."
+          },
+          {
+            "method_name": "getAvailableFilms",
+            "signature": "List<Film> getAvailableFilms()",
+            "description": "Returns a list of all films that are available in the inventory."
+          },
+          {
+            "method_name": "getAllFilmsByCategory",
+            "signature": "List<Film> getAllFilmsByCategory(Integer categoryId)",
+            "description": "Returns a list of all films that belong to a given category ID."
+          },
+          {
+            "method_name": "getAllFilmsByActor",
+            "signature": "List<Film> getAllFilmsByActor(Integer actorId)",
+            "description": "Returns a list of all films that have a given actor ID."
+          },
+          {
+            "method_name": "findByTitle",
+            "signature": "List<Film> findByTitle(String title)",
+            "description": "Returns a list of films with the given title."
+          },
+          {
+            "method_name": "getFilmByFilmId",
+            "signature": "Film getFilmByFilmId(Integer id)",
+            "description": "Returns a film object for a given film ID."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Spring Data JPA to interact with the Sakila database.",
+          "Defines methods for accessing and manipulating film data in the database.",
+          "Includes queries that use native SQL to retrieve specific information from the database."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/respositories/InventoryRepository.java",
+      "description": {
+        "file_summary": "This file defines an interface for the InventoryRepository class, which is used to interact with the inventory table in the Sakila database",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getInventoriesByInventoryId",
+            "signature": "public Inventory getInventoriesByInventoryId(Integer inventoryId)",
+            "description": "This method retrieves an inventory object from the database using the specified inventory ID."
+          },
+          {
+            "method_name": "deleteInventoryByInventoryId",
+            "signature": "public void deleteInventoryByInventoryId(@Param(\"id\")Integer id)",
+            "description": "This method deletes an inventory object from the database using the specified inventory ID."
+          },
+          {
+            "method_name": "getInventoryCount",
+            "signature": "public Integer getInventoryCount()",
+            "description": "This method retrieves the number of inventory objects in the database."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file uses the JpaRepository interface to define methods for interacting with the inventory table.",
+          "The getInventoriesByInventoryId method uses a native query to retrieve an inventory object from the database using the specified inventory ID.",
+          "The deleteInventoryByInventoryId method uses a native query to delete an inventory object from the database using the specified inventory ID.",
+          "The getInventoryCount method retrieves the number of inventory objects in the database."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/respositories/ActorRepository.java",
+      "description": {
+        "file_summary": "This file defines a repository for the Actor entity in the Sakila project. It provides methods for querying and retrieving actors based on their first name, last name, or ID",
+        "file_complexity_estimate": 5.0,
+        "methods": [
+          {
+            "method_name": "findActorsByFirstNameAndLastName",
+            "signature": "List<Actor> findActorsByFirstNameAndLastName(String firstName, String lastName)",
+            "description": "Returns a list of actors whose first and last names match the given parameters."
+          },
+          {
+            "method_name": "findActorsByFirstName",
+            "signature": "List<Actor> findActorsByFirstName(String firstName)",
+            "description": "Returns a list of actors whose first name matches the given parameter."
+          },
+          {
+            "method_name": "findActorsByLastName",
+            "signature": "List<Actor> findActorsByLastName(String lastName)",
+            "description": "Returns a list of actors whose last name matches the given parameter."
+          },
+          {
+            "method_name": "getActorByActorId",
+            "signature": "Actor getActorByActorId(Integer id)",
+            "description": "Returns an actor with the specified ID."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The file imports the JpaRepository interface from Spring Data JPA, which provides a standard way of defining repositories for JPA entities.",
+          "The file defines four methods: findActorsByFirstNameAndLastName, findActorsByFirstName, findActorsByLastName, and getActorByActorId. These methods are used to query and retrieve actors based on their first name, last name, or ID."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/respositories/CustomerRepository.java",
+      "description": {
+        "file_summary": "This file defines a repository for the Customer entity in the Sakila project. It provides methods for querying and manipulating customers, as well as retrieving customer counts",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getCustomerByCredentials",
+            "signature": "Customer getCustomerByCredentials(String username, Integer password)",
+            "description": "Retrieves a customer by their email and customer ID."
+          },
+          {
+            "method_name": "getCustomerByUsername",
+            "signature": "Customer getCustomerByUsername(String username)",
+            "description": "Retrieves a customer by their email."
+          },
+          {
+            "method_name": "getCustomersByFirstName",
+            "signature": "List<Customer> getCustomersByFirstName(String firstName)",
+            "description": "Retrieves customers by their first name."
+          },
+          {
+            "method_name": "getCustomersByLastName",
+            "signature": "List<Customer> getCustomersByLastName(String lastName)",
+            "description": "Retrieves customers by their last name."
+          },
+          {
+            "method_name": "getCustomersByFullName",
+            "signature": "List<Customer> getCustomersByFullName(String firstName, String lastName)",
+            "description": "Retrieves customers by their full name (first and last)."
+          },
+          {
+            "method_name": "getCustomerByCustomerId",
+            "signature": "Customer getCustomerByCustomerId(Integer id)",
+            "description": "Retrieves a customer by their ID."
+          },
+          {
+            "method_name": "getCustomerByEmail",
+            "signature": "Customer getCustomerByEmail(String email)",
+            "description": "Retrieves a customer by their email."
+          },
+          {
+            "method_name": "getCustomerCount",
+            "signature": "Integer getCustomerCount()",
+            "description": "Retrieves the total number of customers in the database."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code for implementing the JpaRepository interface.",
+          "Use of the @Query annotation to specify SQL queries for retrieving customers by various criteria."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/Inventory.java",
+      "description": {
+        "file_summary": "The Inventory class represents a table in the Sakila database that stores information about inventory levels for films",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getInventoryId",
+            "signature": "public int getInventoryId()",
+            "description": "Returns the value of the inventoryId field."
+          },
+          {
+            "method_name": "setInventoryId",
+            "signature": "public void setInventoryId(int inventoryId)",
+            "description": "Sets the value of the inventoryId field."
+          },
+          {
+            "method_name": "getFilmId",
+            "signature": "public int getFilmId()",
+            "description": "Returns the value of the filmId field."
+          },
+          {
+            "method_name": "setFilmId",
+            "signature": "public void setFilmId(int filmId)",
+            "description": "Sets the value of the filmId field."
+          },
+          {
+            "method_name": "getLastUpdate",
+            "signature": "public Timestamp getLastUpdate()",
+            "description": "Returns the value of the lastUpdate field."
+          },
+          {
+            "method_name": "setLastUpdate",
+            "signature": "public void setLastUpdate(Timestamp lastUpdate)",
+            "description": "Sets the value of the lastUpdate field."
+          },
+          {
+            "method_name": "equals",
+            "signature": "public boolean equals(Object o)",
+            "description": "Indicates whether some other object is \"equal to\" this one."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "public int hashCode()",
+            "description": "Returns a hash code value for the object."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/Staff.java",
+      "description": {
+        "file_summary": "Staff entity class for the Sakila project",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "(Object o)",
+            "description": "Determines whether another object is equal to this staff."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "()I",
+            "description": "Returns a hash code value for this staff."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/Customer.java",
+      "description": {
+        "file_summary": "This file defines the Customer entity class for the Sakila project",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "boolean equals(Object o)",
+            "description": "Overrides the default equals method to compare two Customer objects based on their customerId, firstName, lastName, email, active, createDate, and lastUpdate fields."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "int hashCode()",
+            "description": "Overrides the default hashCode method to generate a hash code based on the customerId, firstName, lastName, email, active, createDate, and lastUpdate fields."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code for getters and setters",
+          "Overrides of equals and hashCode methods to provide custom comparison logic"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/FilmActor.java",
+      "description": {
+        "file_summary": "Java class representing a FilmActor entity in the Sakila database",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "boolean equals(Object o)",
+            "description": "Method for comparing two FilmActor objects based on their actorId and filmId fields."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "int hashCode()",
+            "description": "Method for generating a hash code for the FilmActor object based on its actorId, filmId, and lastUpdate fields."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code for getters and setters",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/Category.java",
+      "description": {
+        "file_summary": "Category entity class for the Sakila project",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "public boolean equals(Object o)",
+            "description": "Method to check if two objects are equal."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "public int hashCode()",
+            "description": "Method to calculate the hash code of an object."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code for getters and setters.",
+          "Use of @Entity annotation to indicate that this class is a JPA entity.",
+          "Use of @Id, @Column, and @Basic annotations to define the structure of the entity."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/Actor.java",
+      "description": {
+        "file_summary": "Actor entity class in the Sakila project",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "getActorId",
+            "signature": "public int getActorId()",
+            "description": "Gets the value of the actorId field."
+          },
+          {
+            "method_name": "setActorId",
+            "signature": "public void setActorId(int actorId)",
+            "description": "Sets the value of the actorId field."
+          },
+          {
+            "method_name": "getFirstName",
+            "signature": "public String getFirstName()",
+            "description": "Gets the value of the firstName field."
+          },
+          {
+            "method_name": "setFirstName",
+            "signature": "public void setFirstName(String firstName)",
+            "description": "Sets the value of the firstName field."
+          },
+          {
+            "method_name": "getLastName",
+            "signature": "public String getLastName()",
+            "description": "Gets the value of the lastName field."
+          },
+          {
+            "method_name": "setLastName",
+            "signature": "public void setLastName(String lastName)",
+            "description": "Sets the value of the lastName field."
+          },
+          {
+            "method_name": "getLastUpdate",
+            "signature": "public Timestamp getLastUpdate()",
+            "description": "Gets the value of the lastUpdate field."
+          },
+          {
+            "method_name": "setLastUpdate",
+            "signature": "public void setLastUpdate(Timestamp lastUpdate)",
+            "description": "Sets the value of the lastUpdate field."
+          },
+          {
+            "method_name": "equals",
+            "signature": "public boolean equals(Object o)",
+            "description": "Indicates whether some other object is \"equal to\" this one."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "public int hashCode()",
+            "description": "Returns a hash code value for the object."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/FilmText.java",
+      "description": {
+        "file_summary": "Java class representing a FilmText entity in the Sakila database",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "boolean equals(Object o)",
+            "description": "Checks whether this FilmText is equal to another object."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "int hashCode()",
+            "description": "Returns a hash code value for this FilmText."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/FilmActorPK.java",
+      "description": {
+        "file_summary": "Java class for FilmActorPK primary key class",
+        "file_complexity_estimate": 3.0,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "public boolean equals(Object o)",
+            "description": "Method to check if two objects are equal."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "public int hashCode()",
+            "description": "Method to calculate the hash code of an object."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/FilmCategory.java",
+      "description": {
+        "file_summary": "This file defines the FilmCategory entity class for the Sakila database",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "public boolean equals(Object o)",
+            "description": "Overrides the default equals method to compare this FilmCategory object with another object."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "public int hashCode()",
+            "description": "Overrides the default hashCode method to generate a unique hash code for this FilmCategory object."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/Order.java",
+      "description": {
+        "file_summary": "This file defines the Order class, which represents a single order in the Sakila database",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "Order",
+            "signature": "public Order(Customer customer, Film film, Rental rental)",
+            "description": "Constructor for an Order object."
+          },
+          {
+            "method_name": "getCustomer",
+            "signature": "public Customer getCustomer()",
+            "description": "Returns the customer associated with this order."
+          },
+          {
+            "method_name": "setCustomer",
+            "signature": "public void setCustomer(Customer customer)",
+            "description": "Sets the customer associated with this order."
+          },
+          {
+            "method_name": "getFilm",
+            "signature": "public Film getFilm()",
+            "description": "Returns the film associated with this order."
+          },
+          {
+            "method_name": "setFilm",
+            "signature": "public void setFilm(Film film)",
+            "description": "Sets the film associated with this order."
+          },
+          {
+            "method_name": "getRental",
+            "signature": "public Rental getRental()",
+            "description": "Returns the rental associated with this order."
+          },
+          {
+            "method_name": "setRental",
+            "signature": "public void setRental(Rental rental)",
+            "description": "Sets the rental associated with this order."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/Film.java",
+      "description": {
+        "file_summary": "A Java class representing a film entity in the Sakila database",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "boolean equals(Object o)",
+            "description": "Checks whether this object is equal to another object."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "int hashCode()",
+            "description": "Returns a hash code value for this object."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/FilmCategoryPK.java",
+      "description": {
+        "file_summary": "Java class representing a primary key for the FilmCategory entity in the Sakila database",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "public boolean equals(Object o)",
+            "description": "Overrides the default equals() method to compare two FilmCategoryPK objects based on their filmId and categoryId fields."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "public int hashCode()",
+            "description": "Overrides the default hashCode() method to generate a hash code for this FilmCategoryPK object based on its filmId and categoryId fields."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses the @Column annotation to specify the name of the columns in the Sakila database that correspond to the filmId and categoryId fields.",
+          "Uses the @Id annotation to indicate that these two fields are the primary key for this entity."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/entities/Rental.java",
+      "description": {
+        "file_summary": "This file defines the Rental entity class for the Sakila project",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "equals",
+            "signature": "public boolean equals(Object o)",
+            "description": "Overrides the default equals method to compare two Rental objects based on their rentalId, inventoryId, customerId, staffId, rentalDate, returnDate, and lastUpdate fields."
+          },
+          {
+            "method_name": "hashCode",
+            "signature": "public int hashCode()",
+            "description": "Overrides the default hashCode method to generate a hash code based on the rentalId, inventoryId, customerId, staffId, rentalDate, returnDate, and lastUpdate fields."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code for getters and setters",
+          "Overrides the default equals and hashCode methods to provide a custom comparison logic"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/securingweb/UserDetailsServiceImpl.java",
+      "description": {
+        "file_summary": "UserDetailsServiceImpl class that implements the UserDetailsService interface from Spring Security to load user information based on their username",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "loadUserByUsername",
+            "signature": "public UserDetails loadUserByUsername(String anyUsername) throws UsernameNotFoundException",
+            "description": "Method that loads user information based on their username. It first checks if the customer exists in the database, and if not, it checks if the staff member exists. If both are null, it throws a UsernameNotFoundException. Otherwise, it creates a new User object with the appropriate username, password, and role.",
+            "complexity": "5"
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Spring Security's UserDetailsService interface to load user information based on their username."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/securingweb/SuccessHandler.java",
+      "description": {
+        "file_summary": "A Spring Security authentication success handler that redirects users to different pages based on their roles",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "onAuthenticationSuccess",
+            "signature": "public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException, ServletException",
+            "description": "Redirects users to different pages based on their roles."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Spring Security's DefaultRedirectStrategy to redirect users to different pages based on their roles.",
+          "Throws an IllegalStateException if the user has a role that is not recognized by the application."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/securingweb/MvcConfig.java",
+      "description": {
+        "file_summary": "This file contains a Java class that implements the WebMvcConfigurer interface from Spring Framework, which is used to configure the web application's MVC settings",
+        "file_complexity_estimate": 3.0,
+        "methods": [
+          {
+            "method_name": "addViewControllers",
+            "signature": "public void addViewControllers(ViewControllerRegistry registry)",
+            "description": "This method is used to configure the view controllers for the web application. It adds three view controllers: \"/home\", \"/\", and \"/login\". Each of these view controllers is associated with a specific view name."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/securingweb/FailureHandler.java",
+      "description": {
+        "file_summary": "Implementation of the Spring Security's AccessDeniedHandler interface to handle access denied exceptions",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "handle",
+            "signature": "(HttpServletRequest request, HttpServletResponse response, AccessDeniedException e) throws IOException, ServletException",
+            "description": "Handles access denied exceptions by redirecting the user to the error page."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Spring Security's AccessDeniedHandler interface"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/securingweb/WebSecurityConfig.java",
+      "description": {
+        "file_summary": "WebSecurityConfig class that configures Spring Security for the Sakila Project",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "configure",
+            "signature": "public void configure(HttpSecurity http) throws Exception",
+            "description": "Configures the HTTP security for the Sakila Project."
+          },
+          {
+            "method_name": "userDetailsService",
+            "signature": "public UserDetailsService userDetailsService()",
+            "description": "Returns a custom implementation of the UserDetailsService interface."
+          },
+          {
+            "method_name": "passwordEncoder",
+            "signature": "public PasswordEncoder passwordEncoder()",
+            "description": "Returns an instance of the BCryptPasswordEncoder class for encoding passwords."
+          },
+          {
+            "method_name": "authenticationProvider",
+            "signature": "public DaoAuthenticationProvider authenticationProvider()",
+            "description": "Returns a custom implementation of the DaoAuthenticationProvider interface."
+          },
+          {
+            "method_name": "configure",
+            "signature": "protected void configure(AuthenticationManagerBuilder auth) throws Exception",
+            "description": "Configures the authentication manager for the Sakila Project."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Custom implementation of UserDetailsService and DaoAuthenticationProvider for user authentication",
+          "Use of BCryptPasswordEncoder for password encoding"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/home.html",
+      "description": {
+        "file_summary": "HTML file that uses Thymeleaf as a templating engine and includes fragments from other files",
+        "file_complexity_estimate": null,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Thymeleaf as a templating engine to include fragments from other files",
+          "Includes a jumbotron with a welcome message and an image"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/error.html",
+      "description": {
+        "file_summary": "A HTML file that uses Thymeleaf to define a layout with a navigation fragment and a content fragment",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "layout:decorator",
+            "signature": "layout:decorator=\"layout/layout\"",
+            "description": "Sets the layout decorator for the HTML file."
+          },
+          {
+            "method_name": "th:replace",
+            "signature": "th:replace=\"fragments/navigation :: navigation\"",
+            "description": "Replaces the content of the navigation fragment with the content of the navigation fragment."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/login.html",
+      "description": {
+        "file_summary": "Login page for a web application",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "login",
+            "signature": "void login()",
+            "description": "Handles the login form submission and redirects to the home page if successful."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code for a basic web application login page.",
+          "Uses Thymeleaf templating engine for HTML generation."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/landing.html",
+      "description": {
+        "file_summary": "HTML file containing a slideshow of movie posters and their corresponding descriptions",
+        "file_complexity_estimate": 10.0,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/films/filmDetails.html",
+      "description": {
+        "file_summary": "A HTML file that displays information about a film, including its title, description, release year, length, rating, special features, rental duration, and rental cost. It also includes a button to rent the film if it is available",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "render",
+            "signature": "void render(FilmDetails details)",
+            "description": "Renders the HTML page with the film information."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Thymeleaf templating engine to display film information.",
+          "Uses Spring Security to check if a user is authenticated and render the rent button accordingly."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/films/films.html",
+      "description": {
+        "file_summary": "A HTML file that displays a list of films with their availability and description",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "onSubmit",
+            "signature": "public void onSubmit(Film film)",
+            "description": "Called when the form is submitted to search for films."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The use of Thymeleaf templating engine to dynamically generate HTML content based on the data provided by the server.",
+          "The use of CSS stylesheets to format the layout and design of the page.",
+          "The use of JavaScript to add interactivity to the page, such as the search functionality."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/owner/customerDetails.html",
+      "description": {
+        "file_summary": "This HTML file is a part of the SakilaProject and displays the rental history for a customer",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "Thymeleaf template",
+            "signature": "./repo/SakilaProject/src/main/resources/templates/owner/customerDetails.html",
+            "description": "This HTML file uses Thymeleaf template engine to display the rental history for a customer."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/owner/customers.html",
+      "description": {
+        "file_summary": "This file is a HTML template for the customers overview page of the Sakila project. It uses Thymeleaf as its templating engine and includes a form to filter customers by first name, last name, and email",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "filterCustomers",
+            "signature": "public String filterCustomers(Model model)",
+            "description": "This method filters customers by first name, last name, and email based on the user's input."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/owner/films.html",
+      "description": {
+        "file_summary": "This HTML file is a layout for the Sakila project, specifically for the films overview page. It uses Thymeleaf as its template engine and includes a table with film information",
+        "file_complexity_estimate": null,
+        "methods": [
+          {
+            "method_name": "Thymeleaf",
+            "signature": "Template Engine used for the layout",
+            "description": "Thymeleaf is a template engine that allows developers to separate presentation from logic in web applications. It provides a simple and flexible way to create dynamic HTML pages."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/owner/edit-film.html",
+      "description": {
+        "file_summary": "This is a HTML file that displays a form for editing a film. It uses Thymeleaf as the template engine and includes layout fragments",
+        "file_complexity_estimate": 10.0,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/owner/owner.html",
+      "description": {
+        "file_summary": "A HTML file that displays a welcome message and information about the current user",
+        "file_complexity_estimate": null,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/owner/manage-films.html",
+      "description": {
+        "file_summary": "A HTML file that displays a list of films with details and an option to edit or delete each film",
+        "file_complexity_estimate": 10.0,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Thymeleaf templating engine for HTML generation",
+          "Uses Spring MVC framework for handling HTTP requests and responses",
+          "Uses a layout decorator to include a common header and footer across all pages",
+          "Uses a form with a selection menu to filter films by title",
+          "Displays a table with film details, including ID, title, description, release year, rental duration, price, rating, length, replacement cost, and availability",
+          "Includes links for editing and deleting each film",
+          "Uses Spring Data JPA to interact with the database"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/fragments/header.html",
+      "description": {
+        "file_summary": "HTML file for the SakilaProject, contains HTML and Thymeleaf fragments",
+        "file_complexity_estimate": null,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/fragments/footer.html",
+      "description": {
+        "file_summary": "This is a HTML file that contains the footer section of a website",
+        "file_complexity_estimate": 10.0,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/fragments/navigation.html",
+      "description": {
+        "file_summary": "HTML file for the Sakila project that displays a navigation bar with links to different pages",
+        "file_complexity_estimate": null,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/categories/categories.html",
+      "description": {
+        "file_summary": "HTML file that displays a list of categories and their details",
+        "file_complexity_estimate": null,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/categories/categoryDetails.html",
+      "description": {
+        "file_summary": "HTML file that displays a list of films for a specific category",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "getFilms",
+            "signature": "public List<Film> getFilms(int categoryId)",
+            "description": "Retrieves a list of films for the specified category."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Thymeleaf templating engine to display film information.",
+          "Uses layout:decorator attribute to apply a layout template to the page.",
+          "Uses th:action and th:text attributes for dynamic content generation."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/customer/customer.html",
+      "description": {
+        "file_summary": "This HTML file is a customer profile page that displays information about the current customer, including their name, email, and rental history",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "Thymeleaf template",
+            "signature": "./repo/SakilaProject/src/main/resources/templates/customer/customer.html",
+            "description": "This is a Thymeleaf template that displays the customer profile page."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code for setting up the HTML structure and layout.",
+          "Thymeleaf expressions for displaying customer information and rental history."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/layout/layout.html",
+      "description": {
+        "file_summary": "HTML file defining a layout for the Sakila project, using Thymeleaf as the template engine",
+        "file_complexity_estimate": 10.0,
+        "methods": [],
+        "mocks": [
+          "Thymeleaf"
+        ],
+        "assertions": [],
+        "noteworthy": [
+          "Uses Thymeleaf's layout feature to define a reusable template for the project.",
+          "Includes fragments/header and fragments/footer templates for header and footer content."
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/actors/actorDetails.html",
+      "description": {
+        "file_summary": "HTML file that uses Thymeleaf template engine to display a list of films with their titles and descriptions",
+        "file_complexity_estimate": 10.0,
+        "methods": [],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "boilerplate code",
+          "code quality issues (e.g., long methods, duplication)",
+          "naming or spelling issues",
+          "security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "performance problems",
+          "refactoring suggestions"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/templates/actors/actors.html",
+      "description": {
+        "file_summary": "This HTML file is a layout for the SakilaProject application, which displays a list of actors and allows users to search by first and last name",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "filterActors",
+            "signature": "public String filterActors(HttpServletRequest request, HttpServletResponse response)",
+            "description": "This method filters the list of actors based on the user's search criteria."
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "The use of Thymeleaf templates for generating HTML content",
+          "The use of CSS stylesheets for formatting and layout",
+          "The use of JavaScript for client-side functionality such as form validation and search results highlighting"
+        ]
+      }
+    },
+    {
+      "file": "./repo/SakilaProject/src/main/resources/static/fonts/flaticon/font/flaticon.html",
+      "description": {
+        "file_summary": "HTML file containing a font library for Flaticon icons. This HTML file appears to be the source code for a web page that displays Flaticon icons. It includes CSS stylesheets, JavaScript files, and HTML elements such as headings, paragraphs, lists, and images. HTML file containing CSS styles for the Flaticon font. This file contains a list of flaticon glyphs, including their names, authors, and descriptions",
+        "file_complexity_estimate": 10.0,
+        "methods": [
+          {
+            "method_name": "render",
+            "signature": "function render() { ... }",
+            "description": "This method appears to be responsible for rendering the web page. It includes code that sets up the layout and styles of the page, as well as code that retrieves data from external sources such as Google Fonts and Flaticon's API.",
+            "complexity": 5
+          }
+        ],
+        "mocks": [],
+        "assertions": [],
+        "noteworthy": [
+          "Boilerplate code",
+          "Code quality issues (e.g., long methods, duplication)",
+          "Naming or spelling issues",
+          "Security flaws (e.g., hardcoded secrets, weak hashing, SQL injection)",
+          "Performance problems",
+          "Refactoring suggestions",
+          "CSS styles for the Flaticon font",
+          "media queries for different screen sizes"
+        ]
+      }
+    }
+  ]
+}
