@@ -2,28 +2,30 @@
   "project": "SakilaProject",
   "summary": {
     "project_name": "SakilaProject",
-    "business_purpose": "The Sakila project is a sample database used to demonstrate the use of MySQL and Java. It provides a comprehensive example of how to design, implement, and maintain a relational database using MySQL.",
+    "business_purpose": "The Sakila project is an example of a fictional film rental store that allows customers to rent films and view their rental history.",
     "main_features": [
-      "Entity classes for interacting with the Sakila database",
-      "Services for managing categories, actors, customers, and rental history",
-      "Controllers for handling requests related to categories, actors, customers, and rental history",
-      "Repositories for interacting with the Sakila database's inventory table, staff, and customer entities",
-      "Tests for the Sakila project's controllers and services"
+      "Rentals",
+      "Customers",
+      "Films",
+      "Staff"
     ],
     "technology_stack": [
       "Java",
-      "Spring Framework",
+      "Spring Boot",
       "MySQL",
       "Thymeleaf",
-      "JUnit"
+      "JUnit",
+      "Mockito"
     ],
-    "testing_and_mocks": "The Sakila project includes unit tests for the Rental and Category classes, as well as JUnit test cases for the MainController class.",
+    "testing_and_mocks": [
+      "Unit tests for the Rental and Category classes using Mockito",
+      "JUnit tests for the MainController class"
+    ],
     "architecture_and_patterns": [
-      "Layered architecture",
-      "Monolithic application",
-      "Singleton pattern",
-      "Factory pattern",
-      "MVC (Model-View-Controller) design pattern"
+      "Layered architecture (Presentation, Service, Data Access)",
+      "Monolithic architecture",
+      "Singleton pattern used in the InventoryRepository interface",
+      "Factory pattern used in the FilmText class"
     ]
   }
 }

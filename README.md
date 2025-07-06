@@ -313,7 +313,25 @@ ollama pull codellama
 ```
 
 ---
+### Configuration
 
+The model and backend can be configured using environment variables or directly in config.py.
+
+#### Model Selection:
+```
+USE_OPENAI = True  # Set to False to use Ollama locally
+MODEL_NAME = "gpt-4o" if USE_OPENAI else "codellama"
+```
+
+- Set USE_OPENAI = True to use OpenAI models like gpt-4o (requires API key in .env)
+
+- Set USE_OPENAI = False to use local models via Ollama (default is codellama)
+
+- Make sure to configure your .env file with the OpenAI key if using OpenAI:
+
+```
+  OPENAI_API_KEY=sk-xxxxxxx
+```
 ### Run InsightFoundry
 
 Run the analyzer on a GitHub repo:
@@ -321,13 +339,17 @@ Run the analyzer on a GitHub repo:
 ```bash
 python main.py git@github.com:janjakovacevic/SakilaProject.git
 ```
-
 This will:
 
-- Clone the repo to the local path (`./repos/` by default)
-- Recursively scan source files
-- Generate summaries and complexity scores
-- Write structured JSON to `output/sakila_project_summary.json`
+- Clone the repo into ./repo/
+
+- Detect programming language per file
+
+- Chunk and summarize code using the selected model
+
+- Extract method-level metadata and project-level insights
+
+- Write results into the output/ directory
 
 ---
 
@@ -335,8 +357,8 @@ This will:
 
 You’ll find two output files:
 
-- `output/sakila_summary.json` — Raw per-file analysis
-- `output/sakila_project_summary.json` — Project-level overview
+- `output/SakilaProject_file_level_summary.json` — File-level and method-level summaries
+- `output/sakila_project_summary.json` — Project-level overview with business context, architecture, and more
 
 > For a sample, see: `samples/sample_output.json`
 
