@@ -7,7 +7,7 @@
 
 - [Overview](#overview)
 - [Goals and Approach](#Goals-and-Approach)
-    - [Assessment Expectations & Justifications](#Assessment-Aligned-Knowledge-Extraction)
+    - [Knowledge Extraction in Line with Assessment](#Knowledge-Extraction-in-Line-with-Assessment)
     - [Implementation Objectives](#Implementation-Objectives)
 - [Architecture](#architecture)
     - [High-Level Flow](#High-Level-Flow)
@@ -27,9 +27,7 @@
 
 ## Overview
 
-InsightFoundry is a language-agnostic, LLM-powered code analysis prototype that extracts structured insights from any
-software codebase. It summarizes source files and methods, estimates complexity, and produces consistent,
-machine-readable JSON outputs for downstream use.
+InsightFoundry is a language-agnostic prototype that uses LLM for code analysis. It extracts structured insights from any software codebase. It summarizes source files and methods, estimates complexity, and generates consistent, machine-readable JSON outputs for later use.
 
 The implementation is built using LangChain, with pluggable support for both OpenAI and Ollama backends. It demonstrates
 effective use of:
@@ -38,15 +36,14 @@ effective use of:
 - Token-aware chunking to manage large files
 - Modular architecture for extensibility
 
-This project was developed as part of an assessment — with an emphasis on correctness, clarity, and maintainability over
-production-scale engineering (e.g., parallelism, caching, vector search).
+This project was developed as part of an assessment. It focuses on correctness, clarity, and maintainability rather than production-scale engineering, such as parallelism, caching, and vector search.
 
 **The name InsightFoundry reflects the tool’s mission: to forge actionable insights from raw code using the intelligence
 of language models.**
 
 ## Goals and Approach
 
-### Assessment-Aligned Knowledge Extraction
+### Knowledge Extraction in Line with Assessment
 
 InsightFoundry extracts structured knowledge from source code in the following forms:
 
