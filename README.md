@@ -38,8 +38,7 @@ effective use of:
 
 This project was developed as part of an assessment. It focuses on correctness, clarity, and maintainability rather than production-scale engineering, such as parallelism, caching, and vector search.
 
-**The name InsightFoundry reflects the tool’s mission: to forge actionable insights from raw code using the intelligence
-of language models.**
+**The tool's name, InsightFoundry, reflects its goal of using language models' intelligence to create actionable insights from raw code.**
 
 ## Goals and Approach
 
