@@ -1,6 +1,6 @@
 # InsightFoundry Codebase Analysis using LLMs (Assessment Prototype)
 
-> **Note**: This implementation was designed as part of a coding assessment. It balances completeness with simplicity
+> **Note**: This implementation balances completeness with simplicity
 > and focuses on modular design, LLM integration, and token efficiency rather than production-scale robustness.
 
 ## Table of Contents
@@ -433,6 +433,6 @@ This codebase serves as a **functional, assessment-oriented prototype** that dem
 understanding in a modular and extensible way. With additional engineering, it can be transformed into a scalable
 production tool suitable for large codebases and team-wide usage.
 
-> Due to the scope and time constraints of the assessment, we deliberately excluded advanced optimizations like
+> To align with the initial development goals, we deliberately excluded advanced optimizations like
 > embedding-based retrieval, semantic cross-file linking, and parallel execution. However, the current architecture can
 > support these with minimal refactoring.
